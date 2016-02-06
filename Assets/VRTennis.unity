@@ -288,6 +288,10 @@ Prefab:
       propertyPath: m_ClearFlags
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2057700, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11480984, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
@@ -923,31 +927,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
---- !u!1 &1310891098 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 142086, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 6625977}
 --- !u!4 &1310891099 stripped
 Transform:
   m_PrefabParentObject: {fileID: 440048, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_PrefabInternal: {fileID: 6625977}
---- !u!114 &1310891100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1310891098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13a43e992568b8e48b4bd489b9d96f40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  front: {fileID: 2800000, guid: 595bdb4ba08337c4097325cdb370d080, type: 3}
-  back: {fileID: 2800000, guid: bbb6637f8ce50e74a83854c1a41e6cea, type: 3}
-  left: {fileID: 2800000, guid: 842d39b32695a454d87dce9630b9a235, type: 3}
-  right: {fileID: 2800000, guid: b4dd7bac6c9c9bb4bb3c1b63a3eef362, type: 3}
-  top: {fileID: 2800000, guid: baafe81d1a28b0d45b7f3e673509d5e8, type: 3}
-  bottom: {fileID: 2800000, guid: 1995afa179277e7418c30f99df22dc2f, type: 3}
 --- !u!1 &1323629988
 GameObject:
   m_ObjectHideFlags: 0
