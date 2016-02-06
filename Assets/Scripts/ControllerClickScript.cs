@@ -5,8 +5,6 @@ public class ControllerClickScript : MonoBehaviour {
 
     public Transform prefab;
 
-    public GameObject controllerObject;
-
 	// Use this for initialization
 	void Start () {
 	
