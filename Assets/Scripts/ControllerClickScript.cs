@@ -12,7 +12,7 @@ public class ControllerClickScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        var controller = SteamVR_Controller.Input(2);
+        var controller = SteamVR_Controller.Input(3);
 
         if(controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_Grip))
         {
